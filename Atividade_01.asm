@@ -7,8 +7,8 @@
 .data
 vetor_A: 	   .word 0, 0, 0, 0, 0, 0, 0, 0				# Cada vetor deve ser declarado com 8 elementos inicializados em 0.Eles devem ser claramente identificados 
 vetor_B: 	   .word 0, 0, 0, 0, 0, 0, 0, 0				# com nomes como vetor_A e vetor_B			
-tamanhoVetor:      .asciiz "Digite o tamanho máximo dos vetores: "	# Para leitura, deve ser apresentada uma mensagem solicitando a entrada desse valor, indicando o seu limite máximo
-elementoInvalido:  .asciiz "Valor invalido"				# No caso de entrada inválida, o programa deve imprimir uma mensagem de advertência antes de solicitar
+tamanhoVetor:      .asciiz "\n Digite o tamanho máximo dos vetores: "	# Para leitura, deve ser apresentada uma mensagem solicitando a entrada desse valor, indicando o seu limite máximo
+elementoInvalido:  .asciiz "\n Valor invalido"				# No caso de entrada inválida, o programa deve imprimir uma mensagem de advertência antes de solicitar
 									# novamente a entrada
 vetor_AChaves:     .asciiz "\n vetor_A["				# Usado para imprimir corretamente os valores dos vetores
 vetor_BChaves:     .asciiz "\n vetor_B["
